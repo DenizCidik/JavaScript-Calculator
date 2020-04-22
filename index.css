@@ -59,6 +59,7 @@ button:active{
     font-weight: bold;
     color: white;
     word-wrap: break-word;
+    overflow: hidden;
 
 }
 
