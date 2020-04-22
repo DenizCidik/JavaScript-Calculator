@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <center>
+      <div class="calc">
+        <button class="clear" onclick="buttonClick('C')">C</button>
+        <div id="board"></div>
+        <div class="buttons">
+          <button onclick="buttonClick('7')">7</button>
+          <button onclick="buttonClick('8')">8</button>
+          <button onclick="buttonClick('9')">9</button>
+          <button onclick="buttonClick('+')" class = "operator">+</button>
+          <button onclick="buttonClick('4')">4</button>
+          <button onclick="buttonClick('5')">5</button>
+          <button onclick="buttonClick('6')">6</button>
+          <button onclick="buttonClick('-')" class="operator">-</button>
+          <button onclick="buttonClick('1')">1</button>
+          <button onclick="buttonClick('2')">2</button>
+          <button onclick="buttonClick('3')">3</button>
+          <button class="operator" onclick="buttonClick('*')">*</button>
+          <button onclick="buttonClick('0')">0</button>
+          <button onclick="buttonClick('.')">.</button>
+          <button id = "equal" onclick="buttonClick('=')">=</button>
+          <button class="operator" onclick="buttonClick('/')">/</button>
+        </div>
+      </div>
+    </center>
+
+    <script src="app.js"></script>
+  </body>
+</html>
